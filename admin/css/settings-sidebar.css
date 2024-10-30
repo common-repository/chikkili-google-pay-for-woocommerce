@@ -1,0 +1,25 @@
+/**
+ * All of the CSS for your all sevengits plugins settings sidebar admin-facing style functionality should be
+ * included in this file.
+ */
+
+#sg-settings-sidebar {
+    float: right;
+    position: sticky;
+    top: 100px;
+    background: #f0f0f1;
+    right: 0px;
+    height: 0px;
+    z-index: 9;
+}
+
+.sg-icon {
+    color: cornflowerblue;
+    font-size: 20px;
+}
+
+@media (max-width: 700px) {
+    #sg-settings-sidebar {
+        display: none;
+    }
+}
